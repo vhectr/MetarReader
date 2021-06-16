@@ -1,0 +1,12 @@
+def parse_data(data):
+    print(f"ICAO Code: {str(data.airport)}")
+    print(f"Date & Time: {str(data.data_date)}")
+    print(f"Changements: {str(data.changements)}")
+    print(f"Automatic Station: {str(data.auto)}")
+    print(f"RVR: {str(data.rvr)}")
+    print(f"Weather: {str(data.weather)}")
+    print(f"Cloud: {str(data.cloud)}")
+    print(f"Temperatures: {str(data.temperatures)}")
+    print(f"QNH: {str(data.qnh)}")
+    print(f"Visibility: {str(data.visibility)}")
+    print(f"VMC: {str(data.vmc)}")
